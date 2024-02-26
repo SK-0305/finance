@@ -1,4 +1,5 @@
 # finance
 finally starting finance 
-dk what to do
+dk what to dooo
+hi bros
 
