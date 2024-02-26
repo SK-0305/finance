@@ -1,0 +1,2 @@
+# finance
+finally starting finance 
