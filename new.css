@@ -1,4 +1,4 @@
-/*.topbar {
+/* .topbar {
     width : 100%;
     height: 48.4px;
     position: fixed;
@@ -26,10 +26,10 @@
   } */
   .icon-bar {
     width : 100%;
-    height: 48.4px;
+    height: 50px;
     position: fixed;
     background-color: #FFD23F;
-    top: 0; /* Stay at the top */
+    top: 0; 
     left: 0;
     text-align: right;
     display: inline-block;
@@ -37,7 +37,7 @@
   }
 
   .icon-bar a{
-    padding: 13.2px 20px;
+    padding: 10px 50px;
     color: #0E120C;
     font-size: 20px;
     text-decoration: none;
@@ -49,13 +49,13 @@
   .icon-bar a:hover {
     color: #f1f1f1;
     background-color: white;
-  }
-  /* .logo{
+  } 
+   /* .logo{
     height:48px;
     width:95%
     margin-top:3px;
     margin-left:3px;
-  } */
+  }
   .search
 {
     
@@ -63,4 +63,16 @@
     height: 40px;
     margin-top: 3px;
     margin-left: 3px;
+} */
+.img1{
+display:block;
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+position:relative;
+
+
+
+
+
 }
