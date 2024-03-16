@@ -1,34 +1,9 @@
-/* .topbar {
-    width : 100%;
-    height: 48.4px;
-    position: fixed;
-    background-color: #FFD23F;
-    top: 0; 
-    left: 0;
-    text-align: right;
-    display: inline-block;
-    
-  }
 
-  .topbar a{
-    padding: 13.2px 20px;
-    color: #0E120C;
-    font-size: 20px;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Slabo;
-    
-  }
-  
-  .topbar a:hover {
-    color: #f1f1f1;
-    background-color: black;
-  } */
   .icon-bar {
     width : 100%;
     height: 50px;
     position: fixed;
-    background-color: #FFD23F;
+    background-color: lightgreen;
     top: 0; 
     left: 0;
     text-align: right;
@@ -38,7 +13,7 @@
 
   .icon-bar a{
     padding: 10px 50px;
-    color: #0E120C;
+    color: black;
     font-size: 20px;
     text-decoration: none;
     display: inline-block;
@@ -49,30 +24,17 @@
   .icon-bar a:hover {
     color: #f1f1f1;
     background-color: white;
+
   } 
-   /* .logo{
-    height:48px;
-    width:95%
-    margin-top:3px;
-    margin-left:3px;
-  }
-  .search
-{
-    
-    
-    height: 40px;
-    margin-top: 3px;
-    margin-left: 3px;
-} */
-.img1{
-display:block;
-background-position: left;
-background-repeat: no-repeat;
-background-size: cover;
-position:relative;
 
 
-
-
-
+.sidebar{
+  height: 1080px; 
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index:-1 ;
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: lightgray; /* Black */
+  overflow-x: hidden; 
 }
